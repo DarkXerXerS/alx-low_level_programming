@@ -1,14 +1,16 @@
 #include <stdio.h>
-/*
- *main -Funtion
- *
- *Description: This function is the entry point of the program
- *
- *return: 0(sucess)
- */
+
+/**
+* main - Entry point
+*
+* Description: This function is the entry point of the program.
+*              It prints a message using the puts function.
+*
+* Return: 0 (Success)
+*/
 int main(void)
 {
-	puts("\"Programming is like building a multilingual puzzle");
+    puts("\"Programming is like building a multilingual puzzle");
 
-	return (0);
+    return (0);
 }

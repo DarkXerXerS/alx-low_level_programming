@@ -1,13 +1,9 @@
 #include <stdio.h>
-
 /**
-* main - Entry point
-*
-* Description: This function is the entry point of the program.
-*              It prints a message using the puts function.
-*
-* Return: 0 (Success)
-*/
+ * main - Entry point
+ *
+ * Return 0
+ */
 int main(void)
 {
     puts("\"Programming is like building a multilingual puzzle");

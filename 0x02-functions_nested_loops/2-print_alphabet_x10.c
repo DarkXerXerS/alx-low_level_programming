@@ -1,21 +1,19 @@
 #include "main.h"
 /**
- * void print_alphabet_x10(void) - Entry point
- *
- * Description - print the alhabet 10 times
- *
- * Return: void no return
+ *  * print_alphabet_x10 - a function that prints 10 times the alphabet
+ *   *
+ *    * Return: x10 a-z
  */
 void print_alphabet_x10(void)
 {
-	int i, j;
+	int a, b;
 
-	for (i = 0; i <= 9; i++)
+	for (a = 0; a <= 9; a++)
 	{
-		for (j = 97; j <= 122; j++)
+		for (b = 97; b <= 122; b++)
 		{
-			_putchar(j);
+			_putchar(b);
 		}
+		_putchar('\n');
 	}
-	_putchar('\n');
 }

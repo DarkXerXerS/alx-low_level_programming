@@ -8,13 +8,12 @@
  */
 int main(void)
 {
-	int i, size;
-	int str[] = {'_', 'p', 'u', 't', 'c', 'h', 'a', 'r'};
+	char chart[] = "_putchar";
+	int i;
 
-	size = sizeof(str) / sizeof(int);
-	for (i = 0; i < size; i++)
+	for (i = 0; i < 8; i++)
 	{
-		_putchar(str[i]);
+		_putchar(chart[i]);
 	}
 	_putchar('\n');
 	return (0);

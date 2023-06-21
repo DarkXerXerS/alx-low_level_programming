@@ -4,10 +4,10 @@
  * _abs - compute the ablolute value of an interger
  *
  * @n: number being tested
- *
+ iiii
  * Return: always 0
  */
-int _abs(int)
+int _abs(int n)
 {
 	if (n < 0)
 	{

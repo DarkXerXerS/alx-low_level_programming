@@ -8,13 +8,15 @@
  */
 int main(void)
 {
-	char chart[] = "_putchar";
-	int i;
+	putchar('_');
+	putchar('p');
+	putchar('u');
+	putchar('t');
+	putchar('c');
+	putchar('h');
+	putchar('a');
+	putchar('r');
+	putchar('\n');
 
-	for (i = 0; i < 8; i++)
-	{
-		_putchar(chart[i]);
-	}
-	_putchar('\n');
 	return (0);
 }
